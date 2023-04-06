@@ -49,7 +49,8 @@ public class PlayerController : MonoBehaviour
         if(other.gameObject.CompareTag("center"))
         {
             this.rb.velocity = Vector3.zero;
-            this.rb.angularVelocity = Vector3.zero;
+            this.rb.Sleep();
+            //this.rb.angularVelocity = Vector3.zero;
         }
     }
 
