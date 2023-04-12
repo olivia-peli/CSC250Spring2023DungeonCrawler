@@ -11,6 +11,7 @@ public class DungeonSetup : MonoBehaviour
     void Start()
     {
         //hw answer should be in here!
+        MasterData.setupDungeon();
     }
 
     // Update is called once per frame
