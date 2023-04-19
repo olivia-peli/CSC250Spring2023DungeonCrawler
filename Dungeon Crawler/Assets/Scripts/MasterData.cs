@@ -1,3 +1,5 @@
+using UnityEngine;
+
 public class MasterData
 {
     public static int count = 0;
@@ -6,6 +8,7 @@ public class MasterData
     private static bool isDungeonSetup = false;
     public static Dungeon cs = null;
     public static Player p = null;
+    public static GameObject musicLooper = null;
 
     public static void setupDungeon()
     {

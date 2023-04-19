@@ -14,11 +14,6 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < 10; i++)
-        {
-            print(Random.Range(1.0f, 10.0f));
-        }
-
         this.updateExits();
 
         this.rb = this.GetComponent<Rigidbody>();
