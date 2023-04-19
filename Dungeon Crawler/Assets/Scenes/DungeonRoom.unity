@@ -160,6 +160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0023c380186f845a5919e78d95109f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableFights: 1
+  chanceToGetIntoFight: 100
 --- !u!65 &95648983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -658,6 +660,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0023c380186f845a5919e78d95109f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableFights: 1
+  chanceToGetIntoFight: 100
 --- !u!65 &736914809
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1108,6 +1112,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0023c380186f845a5919e78d95109f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableFights: 1
+  chanceToGetIntoFight: 100
 --- !u!65 &1249066984
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1608,6 +1614,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0023c380186f845a5919e78d95109f5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enableFights: 1
+  chanceToGetIntoFight: 100
 --- !u!65 &1890751199
 BoxCollider:
   m_ObjectHideFlags: 0
