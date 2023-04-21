@@ -353,6 +353,7 @@
 "Assets/AN Interactive Physical Door Pack/Scripts/AN_HeroInteractive.cs"
 "Assets/AN Interactive Physical Door Pack/Scripts/AN_PlugScript.cs"
 "Assets/Scripts/centerController.cs"
+"Assets/Scripts/DungeonBackendCode/DeathMatch.cs"
 "Assets/Scripts/DungeonBackendCode/Dungeon.cs"
 "Assets/Scripts/DungeonBackendCode/Exit.cs"
 "Assets/Scripts/DungeonBackendCode/Inhabitant.cs"
@@ -364,6 +365,7 @@
 "Assets/Scripts/MonsterTrigger.cs"
 "Assets/Scripts/MusicLooper.cs"
 "Assets/Scripts/PlayerController.cs"
+"Assets/Scripts/RefereeController.cs"
 -langversion:9.0
 
 /deterministic
