@@ -18,10 +18,19 @@ public class RefereeController : MonoBehaviour
         this.theMonster = new Monster("goblin");
         this.monsterSB.text = this.theMonster.getData();
         this.playerSB.text = MasterData.p.getData();
-        this.theMatch = new DeathMatch(MasterData.p, this.theMonster);
+        this.theMatch = new DeathMatch(MasterData.p, this.theMonster, this.playerGO, this.monsterGO, this);
+        StartCoroutine(DelayBeforeFight());   
     }
 
-    // Update is called once per frame
+    IEnumerator DelayBeforeFight()
+    {
+        yield return new WaitForSeconds(0.5f);
+        this.theMatch.fight();
+    }
+
+    
+
+// Update is called once per frame
     void Update()
     {
         
