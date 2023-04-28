@@ -4,6 +4,7 @@ public class MasterData
 {
     public static bool playerShouldAttack = false;
     public static bool monsterShouldAttack = false;
+    public static bool shouldFollowRotation = false;
     public static int count = 0;
     public static string whereDidIComeFrom = "?";
     public static bool isExiting = true;
