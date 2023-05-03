@@ -78,6 +78,8 @@ public class DeathMatch
             //1. Make the dead guy fall over
             MasterData.shouldFollowRotation = true;
             this.currentTargetGO.transform.Rotate(new Vector3(180, 0, 0));
+            MasterData.shouldFollowRotation = false;
+
 
             //2. Make the winner jump up and down
             this.refereeInstance.StartCoroutine(JumpCoroutine());
@@ -90,6 +92,7 @@ public class DeathMatch
             else
             {
                 //play sad game over
+                ((RefereeController)this.refereeInstance).playLoserMusic();
             }
 
 
