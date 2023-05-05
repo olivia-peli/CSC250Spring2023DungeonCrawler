@@ -45,6 +45,11 @@ public class Inhabitant
         this.hp = this.hp - damage;
     }
 
+    public int getHP()
+    {
+        return this.hp;
+    }
+
     public void healHP(int amount)
     {
         this.hp += amount; // this.hp = this.hp + amount
